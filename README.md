@@ -21,9 +21,9 @@ Para la instalación de Magento entramos en el contenedor phpfpm y **ejecutamos 
 
 <code>mv install.sh ./src</code>
 
-<code>chmod +x install.sh</code>
-
 <code>docker-compose exec phpfpm bash</code>
+
+<code>chmod +x install.sh</code>
 
 <code>./install.sh</code>
 
