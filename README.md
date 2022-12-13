@@ -19,11 +19,15 @@ En el directorio del proyecto.
 #### 3. Instalación de Mangento (con Sample Data)
 Para la instalación de Magento entramos en el contenedor phpfpm y **ejecutamos el script ./install.sh** que se encuentra en /var/www/html/ (directorio por defecto del contenedor).
 
+<code>chmod +x install.sh</code>
+
 <code>mv install.sh ./src</code>
 
 <code>docker-compose exec phpfpm bash</code>
 
 <code>./install.sh</code>
+
+<code>rm install.sh</code>
 
 Los parámetros para la instalación de Magento se pueden configurar modificando el script.
 
