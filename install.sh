@@ -29,6 +29,10 @@ bin/magento setup:install \
 --amqp-user=rabbit \
 --amqp-password=rabbit \
 --cache-backend=redis \
+--cache-backend-redis-server=redis \
+--cache-backend-redis-db=0 \
+--page-cache=redis \
+--page-cache-redis-server=redis \
 --page-cache-redis-db=1
 
 bin/magento sampledata:deploy
