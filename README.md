@@ -1,4 +1,9 @@
 # Magento en Docker
+
+Estos son los [requisitos](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=en) para la versión de Magento 2.4.5-p1.
+
+Los servicios que se van a desplegar son: nginx, php-fpm, redis, elastic search, mysql y rabbitmq
+
 ## Pasos de instalación
 Para lanzar Magento hay que seguir los siguientes pasos:
 
