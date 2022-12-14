@@ -27,7 +27,9 @@ bin/magento setup:install \
 --amqp-host=rabbitmq.magento \
 --amqp-port=5672 \
 --amqp-user=rabbit \
---amqp-password=rabbit
+--amqp-password=rabbit \
+--cache-backend=redis \
+--page-cache-redis-db=1
 
 bin/magento sampledata:deploy
 bin/magento setup:upgrade
